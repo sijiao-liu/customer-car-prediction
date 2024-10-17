@@ -7,6 +7,8 @@ This project focuses on using machine learning techniques to classify which cate
 #### 2. Predicting Vehicle Purchase Price with Regression Models: Analyzing Customer Spending Behavior Based on Income, Gender, and Region
 This project aims to develop regression models to predict how much a customer is likely to spend on a vehicle. It analyzes key features such as income, gender, region, and other socio-economic variables to model the purchasing power and spending patterns of car buyers.
 
+### Part II. 
+
 
 ## Team Members (GitHub Username)
 - Aadil Shaikh ([aadil-shaikh786](https://github.com/aadil-shaikh786))
@@ -36,4 +38,4 @@ This project aims to develop regression models to predict how much a customer is
 
 
 
-### Part II. 
+
