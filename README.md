@@ -33,22 +33,22 @@ The dataset for this project is from Kaggle: [Car Sales Report Dataset](https://
 Attributes of the Dataset
 The dataset contains the following key columns, each representing important information related to car sales:
 
-Car_id (String): Unique identifier for each car in the dataset.
-Date (Datetime): The date of the transaction (format: MM/DD/YYYY).
-Customer Name (String): Name of the customer who purchased the vehicle.
-Gender (String): Gender of the customer (e.g., Male).
-Annual Income (Integer): Annual income of the customer (in local currency).
-Dealer_Name (String): Name of the car dealership where the sale was made.
-Company (String): Manufacturer or company of the car (e.g., Ford, Cadillac).
-Model (String): The specific model of the car sold (e.g., Expedition, Eldorado).
-Engine (String): Type of engine (e.g., Overhead Camshaft, Double Overhead Camshaft).
-Transmission (String): Type of transmission (e.g., Auto, Manual).
-Color (String): The color of the vehicle sold (e.g., Black, Red).
-Price ($) (Integer): Price of the car in dollars.
-Dealer_No (String): Unique identifier for the dealership.
-Body Style (String): The body style of the vehicle (e.g., SUV, Hatchback, Passenger).
-Phone (String): Phone number associated with the dealership.
-Dealer_Region (String): Geographical region of the dealership (e.g., Middletown, Aurora).
+- Car_id (String): Unique identifier for each car in the dataset.
+- Date (Datetime): The date of the transaction (format: MM/DD/YYYY).
+- Customer Name (String): Name of the customer who purchased the vehicle.
+- Gender (String): Gender of the customer (e.g., Male).
+- Annual Income (Integer): Annual income of the customer (in local currency).
+- Dealer_Name (String): Name of the car dealership where the sale was made.
+- Company (String): Manufacturer or company of the car (e.g., Ford, Cadillac).
+- Model (String): The specific model of the car sold (e.g., Expedition, Eldorado).
+- Engine (String): Type of engine (e.g., Overhead Camshaft, Double Overhead Camshaft).
+- Transmission (String): Type of transmission (e.g., Auto, Manual).
+- Color (String): The color of the vehicle sold (e.g., Black, Red).
+- Price ($) (Integer): Price of the car in dollars.
+- Dealer_No (String): Unique identifier for the dealership.
+- Body Style (String): The body style of the vehicle (e.g., SUV, Hatchback, Passenger).
+- Phone (String): Phone number associated with the dealership.
+- Dealer_Region (String): Geographical region of the dealership (e.g., Middletown, Aurora).
 
 ## Data Cleaning
 
