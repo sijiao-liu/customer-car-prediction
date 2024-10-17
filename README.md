@@ -32,7 +32,7 @@ This project aims to develop regression models to predict how much a customer is
 
 
 
-## Statistic Summary
+## Statistical Summary
 
 
 
