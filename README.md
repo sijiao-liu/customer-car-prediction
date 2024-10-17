@@ -13,7 +13,7 @@ This project aims to develop regression models to predict how much a customer is
 ## Team Members (GitHub Username)
 - Aadil Shaikh ([aadil-shaikh786](https://github.com/aadil-shaikh786))
 - Felipe Bastos ([fbastos231](https://github.com/fbastos231))
-- Shayan Hodai
+- Shayan Hodai ([ShayanHodai](https://github.com/ShayanHodai))
 - Si Jiao Liu ([sijiao-liu](https://github.com/sijiao-liu))
 - Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818))
 
