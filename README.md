@@ -28,7 +28,7 @@ This project aims to develop regression models to predict how much a customer is
 
 ## Data Collection
 
-The dataset for this project is from Kaggle: Car Sales Report Dataset. It captures key aspects of automotive sales transactions, simulating various dimensions of car sales, including customer demographics, dealer information, and specific details about the vehicles. Below, we provide a detailed breakdown of the collected data and its relevance to our research objectives.
+The dataset for this project is from Kaggle: [Car Sales Report Dataset](https://www.kaggle.com/datasets/missionjee/car-sales-report). It captures key aspects of automotive sales transactions, simulating various dimensions of car sales, including customer demographics, dealer information, and specific details about the vehicles. Below, we provide a detailed breakdown of the collected data and its relevance to our research objectives.
 
 Attributes of the Dataset
 The dataset contains the following key columns, each representing important information related to car sales:
