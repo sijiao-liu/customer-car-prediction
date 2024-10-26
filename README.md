@@ -6,9 +6,9 @@ In 2023, there were 1.76 million cars sold in Canada which translates to around 
 
 The questions this project aims to address are:
 
-### 1. Car Category Prediction Using Machine Learning: Leveraging Demographic and Purchase Data for Classification
+### 1. Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
 
-### 2. Predicting Vehicle Purchase Price with Regression Models: Analyzing Customer Spending Behavior Based on Income, Gender, and Region
+### 2. How much is a customer likely to spend on a vehicle based on features such as income, gender and region? 
 
 
 
