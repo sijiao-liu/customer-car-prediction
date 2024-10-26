@@ -8,11 +8,7 @@ The questions this project aims to address are:
 
 ### 1. Car Category Prediction Using Machine Learning: Leveraging Demographic and Purchase Data for Classification
 
-This project focuses on using machine learning techniques to classify which category of car (e.g., SUV, sedan) a customer is likely to purchase, based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences in car categories.
-
 ### 2. Predicting Vehicle Purchase Price with Regression Models: Analyzing Customer Spending Behavior Based on Income, Gender, and Region
-
-This project aims to develop regression models to predict how much a customer is likely to spend on a vehicle. It analyzes key features such as income, gender, region, and other socio-economic variables to model the purchasing power and spending patterns of car buyers.
 
 
 
