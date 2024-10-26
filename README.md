@@ -2,17 +2,19 @@
 
 ## Project Overview
 
-### Part I. Applying Statiscal Concepts
+In 2023, there were 1.76 million cars sold in Canada which translates to around a 12.9% increase year over year. Thus understanding customer preferences and spending behavior is key to staying competitive and capturing some of this revenue. This project uses a clustering model to classify potential buyers into different car categories (SUV, Hatchback, etc.) by leveraging demographic data such as age, income, and gender. It also employs a regression model to forecast how much a customer might spend on a vehicle based on factors like income, region, and gender. Together, these provide valuable insights that will help businesses fine-tune their marketing and pricing strategies, ensuring they meet customer needs while maximizing profitability.
 
-#### 1. Car Category Prediction Using Machine Learning: Leveraging Demographic and Purchase Data for Classification
+The questions this project aims to address are:
+
+### 1. Car Category Prediction Using Machine Learning: Leveraging Demographic and Purchase Data for Classification
 
 This project focuses on using machine learning techniques to classify which category of car (e.g., SUV, sedan) a customer is likely to purchase, based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences in car categories.
 
-#### 2. Predicting Vehicle Purchase Price with Regression Models: Analyzing Customer Spending Behavior Based on Income, Gender, and Region
+### 2. Predicting Vehicle Purchase Price with Regression Models: Analyzing Customer Spending Behavior Based on Income, Gender, and Region
 
 This project aims to develop regression models to predict how much a customer is likely to spend on a vehicle. It analyzes key features such as income, gender, region, and other socio-economic variables to model the purchasing power and spending patterns of car buyers.
 
-### Part II.
+
 
 ## Team Members (GitHub Username)
 
@@ -53,3 +55,16 @@ The dataset contains the following key columns, each representing important info
 ## Data Cleaning
 
 ## Statistical Summary
+
+
+
+
+
+
+
+## References
+
+https://www.consumeraffairs.com/automotive/how-big-is-the-automotive-industry.html#key-insights
+
+https://www.statista.com/statistics/423012/motor-vehicle-sales-in-canada/#:~:text=Canadian%20motorists%20purchased%20around%201.76%20million%20new%20motor%20vehicles%20in%202023.
+
