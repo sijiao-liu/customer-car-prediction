@@ -50,6 +50,10 @@ The dataset contains the following key columns, each representing important info
 
 ### Data Types and Null Values
 
+There are 23,906 entries and 16 columns, including features such as car model, price, and annual income. Most of the features are categorical, and there are no significant missing values except for a single entry in Customer Name which is a feature we will not use.
+
+![Data Types and Null Values.png](./image/Data Types and Null Values.png)
+
 ### Interesting Insights
 
 ## Data Preprocessing
@@ -70,7 +74,7 @@ Improvements to classification model:
 - Add ROC/AUC curves & Metrics progression chart (Bar char of bar charts)
 
 
-Using a regression model to to predict customer spending Behavior based on Income, Gender, and Region
+Using a regression model to to predict customer spending Behavior based on Income, Gender, and Region:
 
 - This part of the project would aim at developing a regression model to predict how much a customer is likely to spend on a vehicle. It analyzes key features such as income, gender, region, and other socio-economic variables to model the spending patterns of car buyers.
 
