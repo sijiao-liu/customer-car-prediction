@@ -8,12 +8,7 @@ The questions this project aims to address are:
 
 ### 1. Car Category Prediction Using Machine Learning: Leveraging Demographic and Purchase Data for Classification
 
-This project focuses on using machine learning techniques to classify which category of car (e.g., SUV, sedan) a customer is likely to purchase, based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences in car categories.
-
-### 2. Predicting Vehicle Purchase Price with Regression Models: Analyzing Customer Spending Behavior Based on Income, Gender, and Region
-
-This project aims to develop regression models to predict how much a customer is likely to spend on a vehicle. It analyzes key features such as income, gender, region, and other socio-economic variables to model the purchasing power and spending patterns of car buyers.
-
+This part focuses on using classification techniques to classify which category of car (e.g., SUV, sedan) a customer is likely to purchase, based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences in car categories. This can be used by dealerships to taylor their marketing strategy to each customer group.
 
 
 ## Team Members (GitHub Username)
@@ -24,11 +19,8 @@ This project aims to develop regression models to predict how much a customer is
 - Si Jiao Liu ([sijiao-liu](https://github.com/sijiao-liu))
 - Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818))
 
-## Table of Contents
 
-## Introduction
-
-## Data Collection
+## Dataset
 
 The dataset for this project is from Kaggle: [Car Sales Report Dataset](https://www.kaggle.com/datasets/missionjee/car-sales-report). It captures key aspects of automotive sales transactions, simulating various dimensions of car sales, including customer demographics, dealer information, and specific details about the vehicles. Below, we provide a detailed breakdown of the collected data and its relevance to our research objectives.
 
@@ -52,15 +44,35 @@ The dataset contains the following key columns, each representing important info
 - Phone (String): Phone number associated with the dealership.
 - Dealer_Region (String): Geographical region of the dealership (e.g., Middletown, Aurora).
 
-## Data Cleaning
+## Data Exploration
 
-## Statistical Summary
+### Descriptive Statistics (Numerical Features)
+
+### Data Types and Null Values
+
+### Interesting Insights
+
+## Data Preprocessing
+
+## Data Split and Model Selection
+
+## Hyperparameter Tuning
+
+## Evaluate Final Model
+
+## Conclusion
+
+## Future Work
+
+Improvements to classification model:
+
+- Add validation split as well (75% training, 10% validation, 15% testing)
+- Add ROC/AUC curves & Metrics progression chart (Bar char of bar charts)
 
 
+Using a regression model to to predict customer spending Behavior based on Income, Gender, and Region
 
-
-
-
+- This part of the project would aim at developing a regression model to predict how much a customer is likely to spend on a vehicle. It analyzes key features such as income, gender, region, and other socio-economic variables to model the spending patterns of car buyers.
 
 ## References
 
