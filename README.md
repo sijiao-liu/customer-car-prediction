@@ -52,7 +52,7 @@ The dataset contains the following key columns, each representing important info
 
 There are 23,906 entries and 16 columns, including features such as car model, price, and annual income. Most of the features are categorical, and there are no significant missing values except for a single entry in Customer Name which is a feature we will not use.
 
-![Data Types and Null Values.png](./image/Data Types and Null Values.png)
+![Data Types and Null Values.png](./image/Data_Types_and_Null_Values.png)
 
 ### Interesting Insights
 
