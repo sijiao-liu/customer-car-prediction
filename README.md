@@ -48,6 +48,10 @@ The dataset contains the following key columns, each representing important info
 
 ### Descriptive Statistics (Numerical Features)
 
+The average annual income was $830,840, while the average car price was $28,090. The dataset shows a wide income range, from $10,080 to $11,200,000.
+
+![Descriptive Statistics.png](./image/Descriptive_Statistics.png)
+
 ### Data Types and Null Values
 
 There are 23,906 entries and 16 columns, including features such as car model, price, and annual income. Most of the features are categorical, and there are no significant missing values except for a single entry in Customer Name which is a feature we will not use.
@@ -56,15 +60,46 @@ There are 23,906 entries and 16 columns, including features such as car model, p
 
 ### Interesting Insights
 
+INSIGHTS DESCRIPTION TO BE ADDED HERE
+
+![Distribution of Vehicle Prices.png](./image/Distribution_of_Vehicle_Prices.png)
+
+![Average Price by Body Style.png](./image/Average_Price_by_Body_Style.png)
+
+![Average Price by Body Style.png](./image/visuals_temporal-insights.png)
+
+![Correlation Heatmap.png](./image/correlation_heatmap.png)
+
 ## Data Preprocessing
 
-## Data Split and Model Selection
+STEPS TAKEN FOR PREPOCESSING TO BE ADDED HERE
+
+![Features_used_for_training.png](./image/Features_used_for_training.png)
+
+![Random Forest Pipeline.png](./image/Random_Forest_Pipeline.png)
+
+![SVM Pipeline.png](./image/SVM_Pipeline.png)
+
+![Kneighbors Pipeline.png](./image/Kneighbors_Pipeline.png)
+
+![XGBoost Pipeline.png](./image/XGBoost_Pipeline.png)
+
+
+## Model Selection
+
+STEPS TAKEN FOR MODEL SELECTION TO BE ADDED HERE (TRAIN/TEST SPLIT, TRAINING ACCURACY & CLASSIFICATION REPORT RESULTS)
 
 ## Hyperparameter Tuning
 
+STEPS TAKEN FOR TUNING USING GRIDSEARCH TO BE ADDED HERE (EXPLAIN THE PARAMETERS TUNED)
+
 ## Evaluate Final Model
 
+![confusion matrix.png](./image/confusion_matrix.png)
+
 ## Conclusion
+
+CONCLUSION TO BE ADDED
 
 ## Future Work
 
