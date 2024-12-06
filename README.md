@@ -20,6 +20,8 @@ The focus will be on using machine learning techniques to classify which categor
 - Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818))
 
 
+## Final code can be found here: [https://github.com/sijiao-liu/customer-car-prediction/Classification Model - fbastos.ipynb](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
+
 ## Dataset
 
 The dataset for this project is from Kaggle: [Car Sales Report Dataset](https://www.kaggle.com/datasets/missionjee/car-sales-report). It captures key aspects of automotive sales transactions, simulating various dimensions of car sales, including customer demographics, dealer information, and specific details about the vehicles. Below, we provide a detailed breakdown of the collected data and its relevance to our research objectives.
