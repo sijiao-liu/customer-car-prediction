@@ -4,11 +4,11 @@
 
 In 2023, there were 1.76 million cars sold in Canada which translates to around a 12.9% increase year over year. Thus understanding customer preferences and spending behavior is key to staying competitive and capturing some of this revenue. This project uses a clustering model to classify potential buyers into different car categories (SUV, Hatchback, etc.) by leveraging demographic data such as age, income, and gender. It also employs a regression model to forecast how much a customer might spend on a vehicle based on factors like income, region, and gender. Together, these provide valuable insights that will help businesses fine-tune their marketing and pricing strategies, ensuring they meet customer needs while maximizing profitability.
 
-The questions this project aims to address are:
+The question this project aims to address is:
 
-### 1. Car Category Prediction Using Machine Learning: Leveraging Demographic and Purchase Data for Classification
+#### 1. Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
 
-This part focuses on using classification techniques to classify which category of car (e.g., SUV, sedan) a customer is likely to purchase, based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences in car categories. This can be used by dealerships to taylor their marketing strategy to each customer group.
+The focus will be on using machine learning techniques to classify which category of car (e.g., SUV, sedan) a customer is likely to purchase, based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences in car categories. This can be used by dealerships to taylor their marketing strategy to each customer group.
 
 
 ## Team Members (GitHub Username)
