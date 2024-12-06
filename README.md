@@ -2,13 +2,15 @@
 
 ## Project Overview
 
-In 2023, there were 1.76 million cars sold in Canada which translates to around a 12.9% increase year over year. Thus understanding customer preferences and spending behavior is key to staying competitive and capturing some of this revenue. This project uses a clustering model to classify potential buyers into different car categories (SUV, Hatchback, etc.) by leveraging demographic data such as age, income, and gender. It also employs a regression model to forecast how much a customer might spend on a vehicle based on factors like income, region, and gender. Together, these provide valuable insights that will help businesses fine-tune their marketing and pricing strategies, ensuring they meet customer needs while maximizing profitability.
+In 2023, approximately 1.76 million cars were sold in Canada, marking a 12.9% year-over-year increase. Understanding customer preferences and spending behavior is critical for businesses to remain competitive and capture revenue in this growing market.
+
+This project utilizes a clustering model to classify potential buyers into various car categories (e.g., SUV, Hatchback) by leveraging demographic data like age, income, and gender. Additionally, it employs a regression model to predict how much a customer might spend on a vehicle based on income, region, and gender. These insights will enable businesses to tailor their marketing and pricing strategies effectively.
 
 The question this project aims to address is:
 
 #### 1. Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
 
-The focus will be on using machine learning techniques to classify which category of car (e.g., SUV, sedan) a customer is likely to purchase, based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences in car categories. This can be used by dealerships to taylor their marketing strategy to each customer group.
+The focus is on using machine learning techniques to classify which car category (e.g., SUV, sedan) a customer is likely to purchase based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences. Dealerships can use these insights to tailor their marketing strategies for different customer groups.
 
 
 ## Team Members (GitHub Username)
@@ -20,55 +22,94 @@ The focus will be on using machine learning techniques to classify which categor
 - Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818))
 
 
+#### Final code can be found here: 
+[https://github.com/sijiao-liu/customer-car-prediction/Classification Model - fbastos.ipynb](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
+
 ## Dataset
 
-The dataset for this project is from Kaggle: [Car Sales Report Dataset](https://www.kaggle.com/datasets/missionjee/car-sales-report). It captures key aspects of automotive sales transactions, simulating various dimensions of car sales, including customer demographics, dealer information, and specific details about the vehicles. Below, we provide a detailed breakdown of the collected data and its relevance to our research objectives.
+The dataset for this project is from Kaggle: [Car Sales Report Dataset](https://www.kaggle.com/datasets/missionjee/car-sales-report). It provides comprehensive data on automotive sales transactions, including customer demographics, dealer information, and vehicle specifics. Below is a detailed breakdown of the collected data and its relevance to our research objectives.
 
-Attributes of the Dataset
+#### Attributes of the Dataset
 The dataset contains the following key columns, each representing important information related to car sales:
 
-- Car_id (String): Unique identifier for each car in the dataset.
-- Date (Datetime): The date of the transaction (format: MM/DD/YYYY).
-- Customer Name (String): Name of the customer who purchased the vehicle.
-- Gender (String): Gender of the customer (e.g., Male).
-- Annual Income (Integer): Annual income of the customer (in local currency).
-- Dealer_Name (String): Name of the car dealership where the sale was made.
-- Company (String): Manufacturer or company of the car (e.g., Ford, Cadillac).
-- Model (String): The specific model of the car sold (e.g., Expedition, Eldorado).
-- Engine (String): Type of engine (e.g., Overhead Camshaft, Double Overhead Camshaft).
-- Transmission (String): Type of transmission (e.g., Auto, Manual).
-- Color (String): The color of the vehicle sold (e.g., Black, Red).
-- Price ($) (Integer): Price of the car in dollars.
-- Dealer_No (String): Unique identifier for the dealership.
-- Body Style (String): The body style of the vehicle (e.g., SUV, Hatchback, Passenger).
-- Phone (String): Phone number associated with the dealership.
-- Dealer_Region (String): Geographical region of the dealership (e.g., Middletown, Aurora).
+| Variable Name     | Data Type | Description                                                   |
+|-------------------|-----------|---------------------------------------------------------------|
+| `Car_id`          | String    | Unique identifier for each car in the dataset.               |
+| `Date`            | Datetime  | The date of the transaction (format: MM/DD/YYYY).            |
+| `Customer Name`   | String    | Name of the customer who purchased the vehicle.              |
+| `Gender`          | String    | Gender of the customer (e.g., Male).                         |
+| `Annual Income`   | Integer   | Annual income of the customer (in local currency).           |
+| `Dealer_Name`     | String    | Name of the car dealership where the sale was made.          |
+| `Company`         | String    | Manufacturer or company of the car (e.g., Ford, Cadillac).   |
+| `Model`           | String    | The specific model of the car sold (e.g., Expedition).       |
+| `Engine`          | String    | Type of engine (e.g., Overhead Camshaft).                    |
+| `Transmission`    | String    | Type of transmission (e.g., Auto, Manual).                   |
+| `Color`           | String    | The color of the vehicle sold (e.g., Black, Red).            |
+| `Price ($)`       | Integer   | Price of the car in dollars.                                 |
+| `Dealer_No`       | String    | Unique identifier for the dealership.                        |
+| `Body Style`      | String    | The body style of the vehicle (e.g., SUV, Hatchback).        |
+| `Phone`           | String    | Phone number associated with the dealership.                 |
+| `Dealer_Region`   | String    | Geographical region of the dealership (e.g., Middletown).    |
+
 
 ## Data Exploration
 
 ### Descriptive Statistics (Numerical Features)
 
-The average annual income was $830,840, while the average car price was $28,090. The dataset shows a wide income range, from $10,080 to $11,200,000.
 
 ![Descriptive Statistics.png](./image/Descriptive_Statistics.png)
 
+- **Average Annual Income**: $830,840
+- **Average Car Price**: $28,090
+- **Income Range**: $10,080 to $11,200,000
+
 ### Data Types and Null Values
 
-There are 23,906 entries and 16 columns, including features such as car model, price, and annual income. Most of the features are categorical, and there are no significant missing values except for a single entry in Customer Name which is a feature we will not use.
-
 ![Data Types and Null Values.png](./image/Data_Types_and_Null_Values.png)
+
+- **Number of Entries**: 23,906
+- **Number of Features**: 16
+- **Missing Values**: Most features are categorical, with no significant missing values except for one entry in `Customer Name`, which is not used in the analysis.
+
 
 ### Interesting Insights
 
 INSIGHTS DESCRIPTION TO BE ADDED HERE
 
-![Distribution of Vehicle Prices.png](./image/Distribution_of_Vehicle_Prices.png)
+
+**Distribution of Vehicle Prices**
+  - **Purpose**: This graph showcases the distribution of car prices across different vehicles in the dataset.
+  - **What It Means**:
+    - The price distribution is right-skewed, indicating that most vehicles are in the lower price range, while a few high-end vehicles push the tail of the distribution upward.
+    - This insight helps businesses understand pricing clusters and focus on the most commonly purchased price ranges.
+![Distribution of Vehicle Prices.png](./image/Distribution_of_Vehicle_Prices.png)      
+
+
+**Average Price by Body Style**
+  - **Purpose**: This graph highlights the average prices of different car body styles (e.g., SUVs, sedans).
+  - **What It Means**:
+    - SUVs have the highest average price, followed by passenger vehicles and hatchbacks.
+    - Dealerships can use this information to target customers differently based on their budget preferences for various car categories.
 
 ![Average Price by Body Style.png](./image/Average_Price_by_Body_Style.png)
 
+
+**Average Price by Body Style**
+  - **Purpose**: This visualization provides insights into how vehicle sales trends evolve over time.
+  - **What It Means**:
+    - Peaks and troughs in the data could correlate with seasonal sales trends, promotions, or economic factors.
+    - Understanding these trends can help businesses optimize inventory and promotional strategies during high-demand periods.
+
 ![Average Price by Body Style.png](./image/visuals_temporal-insights.png)
 
+**Correlation Heatmap**
+  - **Purpose**: This heatmap illustrates the relationships between numerical variables in the dataset.
+  - **What It Means**:
+    - A moderate positive correlation is observed between `Annual Income` and `Price ($)`, suggesting that higher-income customers tend to purchase more expensive cars.
+    - Other features, such as `Dealer Region` and `Body Style`, show weaker correlations, emphasizing their less significant role in price prediction.
+
 ![Correlation Heatmap.png](./image/correlation_heatmap.png)
+
 
 ## Data Preprocessing
 
