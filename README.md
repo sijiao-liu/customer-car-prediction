@@ -151,12 +151,12 @@ Next, GridSearchCV was used to fine-tune the hyperparameters of the XGBoost mode
 After hyperparameter tuning with GridSearchCV, the final model was trained using the optimal parameters. The model's performance was evaluated on the test set using a classification report and accuracy score. See graph below showing the resulting accuracy, precision, recall, and F1 score. These results were compared against the previous models to assess the improvement brought by tuning. A confusion matrix was also plotted to further evaluate the model's prediction accuracy across different classes.
 
 <p align="center">
-  <img src="./image/Final_Model_Performance.png" width="600"/>
+  <img src="./image/Final_Model_Performance.png" width="400"/>
 </p>
 
 
 <p align="center">
-  <img src="./image/confusion_matrix.png" width="600"/>
+  <img src="./image/confusion_matrix.png" width="400"/>
 </p>
 
 
