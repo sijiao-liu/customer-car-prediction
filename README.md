@@ -10,7 +10,7 @@ The question this project aims to address is:
 
 ## Team Members (GitHub Username and Final Video)
 
-- Aadil Shaikh ([aadil-shaikh786](https://github.com/aadil-shaikh786), [video]())
+- Aadil Shaikh ([aadil-shaikh786](https://github.com/aadil-shaikh786), [video](https://drive.google.com/file/d/1VgO2r5mbXRWGPIhFml2rw9RJGpsN6HTq/view?usp=sharing))
 - Felipe Bastos ([fbastos231](https://github.com/fbastos231), [video]())
 - Shayan Hodai ([ShayanHodai](https://github.com/ShayanHodai), [video]())
 - Si Jiao Liu ([sijiao-liu](https://github.com/sijiao-liu), [video](https://drive.google.com/file/d/1X4KmT66gDkiLhUEkqq6iu-dDMb9L3O63/view?usp=sharing))
