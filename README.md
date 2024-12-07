@@ -53,8 +53,9 @@ The dataset contains the following key columns, each representing important info
 
 ### Descriptive Statistics (Numerical Features)
 
-
-![Descriptive Statistics.png](./image/Descriptive_Statistics.png)
+<p align="center">
+  <img src="./image/stats_desc.png" width="400"/>
+</p>
 
 - **Average Annual Income**: $830,840
 - **Average Car Price**: $28,090
@@ -62,9 +63,10 @@ The dataset contains the following key columns, each representing important info
 
 ### Data Types and Null Values
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/Data_Types_and_Null_Values.png" width="400"/>
-</div>
+</p>
+
 
 - **Number of Entries**: 23,906
 - **Number of Features**: 16
@@ -82,9 +84,10 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - The price distribution is right-skewed, indicating that most vehicles are in the lower price range, while a few high-end vehicles push the tail of the distribution upward.
     - This insight helps businesses understand pricing clusters and focus on the most commonly purchased price ranges.
      
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/Distribution_of_Vehicle_Prices.png" width="400"/>
-</div>
+</p>
+
 
 **Average Price by Body Style**
   - **Purpose**: This graph highlights the average prices of different car body styles (e.g., SUVs, sedans).
@@ -92,9 +95,10 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - SUVs have the highest average price, followed by passenger vehicles and hatchbacks.
     - Dealerships can use this information to target customers differently based on their budget preferences for various car categories.
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/Average_Price_by_Body_Style.png" width="400"/>
-</div>
+</p>
+
 
 **Average Price by Body Style**
   - **Purpose**: This visualization provides insights into how vehicle sales trends evolve over time.
@@ -102,9 +106,10 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - Peaks and troughs in the data could correlate with seasonal sales trends, promotions, or economic factors.
     - Understanding these trends can help businesses optimize inventory and promotional strategies during high-demand periods.
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/visuals_temporal-insights.png" width="800"/>
-</div>
+</p>
+
 
 **Correlation Heatmap**
   - **Purpose**: This heatmap illustrates the relationships between numerical variables in the dataset.
@@ -112,24 +117,18 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - A moderate positive correlation is observed between `Annual Income` and `Price ($)`, suggesting that higher-income customers tend to purchase more expensive cars.
     - Other features, such as `Dealer Region` and `Body Style`, show weaker correlations, emphasizing their less significant role in price prediction.
       
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/correlation_heatmap.png" width="600"/>
-</div>
+</p>
 
 
 ## Data Preprocessing
 
 STEPS TAKEN FOR PREPOCESSING TO BE ADDED HERE
 
-![Features_used_for_training.png](./image/Features_used_for_training.png)
-
-![Random Forest Pipeline.png](./image/Random_Forest_Pipeline.png)
-
-![SVM Pipeline.png](./image/SVM_Pipeline.png)
-
-![Kneighbors Pipeline.png](./image/Kneighbors_Pipeline.png)
-
-![XGBoost Pipeline.png](./image/XGBoost_Pipeline.png)
+<p align="center">
+  <img src="./image/pipelines.png" width="600"/>
+</p>
 
 Before model training and selection process the data was split into training and test sets using an 80/20 split, where 80% of the data was used for training and 20% for testing.
 
