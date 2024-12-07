@@ -8,13 +8,13 @@ The question this project aims to address is:
 
 #### Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
 
-## Team Members (GitHub Username)
+## Team Members (GitHub Username and Final Video)
 
-- Aadil Shaikh ([aadil-shaikh786](https://github.com/aadil-shaikh786))
-- Felipe Bastos ([fbastos231](https://github.com/fbastos231))
-- Shayan Hodai ([ShayanHodai](https://github.com/ShayanHodai))
-- Si Jiao Liu ([sijiao-liu](https://github.com/sijiao-liu))
-- Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818))
+- Aadil Shaikh ([aadil-shaikh786](https://github.com/aadil-shaikh786), [video]())
+- Felipe Bastos ([fbastos231](https://github.com/fbastos231), [video]())
+- Shayan Hodai ([ShayanHodai](https://github.com/ShayanHodai), [video]())
+- Si Jiao Liu ([sijiao-liu](https://github.com/sijiao-liu), [video]())
+- Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818), [video]())
 
 
 #### Full code available here: [Code](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
