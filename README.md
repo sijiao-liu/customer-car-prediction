@@ -17,12 +17,9 @@ The question this project aims to address is:
 - Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818))
 
 
-#### Full code available here: 
-[Code](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
+#### Full code available here: [Code](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
 
-#### Code requirements available here:
-
-[Requirements](https://github.com/sijiao-liu/customer-car-prediction/blob/fbastos/requirements.txt)
+#### Code requirements available here: [Requirements](https://github.com/sijiao-liu/customer-car-prediction/blob/fbastos/requirements.txt)
 
 
 ## Dataset
