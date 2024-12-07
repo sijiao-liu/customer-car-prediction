@@ -2,16 +2,11 @@
 
 ## Project Overview
 
-In 2023, approximately 1.76 million cars were sold in Canada, marking a 12.9% year-over-year increase. Understanding customer preferences and spending behavior is critical for businesses to remain competitive and capture revenue in this growing market.
-
-This project utilizes a clustering model to classify potential buyers into various car categories (e.g., SUV, Hatchback) by leveraging demographic data like age, income, and gender. Additionally, it employs a regression model to predict how much a customer might spend on a vehicle based on income, region, and gender. These insights will enable businesses to tailor their marketing and pricing strategies effectively.
+In 2023, approximately 1.76 million cars were sold in Canada, marking a 12.9% increase (year-over-year). Therefore, understanding customer preferences and spending behavior could give dealerships an advantage in remaining competitive and capturing some of the revenue these growing sales are generating. This project aims to classify potential purchases into various car categories (e.g., SUV, Hatchback) by leveraging customer data like age, income, gender and previous vehicle purchased. These insights will enable businesses to tailor their marketing strategies effectively.
 
 The question this project aims to address is:
 
-#### 1. Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
-
-The focus is on using machine learning techniques to classify which car category (e.g., SUV, sedan) a customer is likely to purchase based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences. Dealerships can use these insights to tailor their marketing strategies for different customer groups.
-
+#### Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
 
 ## Team Members (GitHub Username)
 
@@ -22,8 +17,10 @@ The focus is on using machine learning techniques to classify which car category
 - Xuan (Heather) Wu ([lookatme818](https://github.com/lookatme818))
 
 
-#### Final code can be found here: 
-[https://github.com/sijiao-liu/customer-car-prediction/Classification Model - fbastos.ipynb](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
+#### Full code available here: [Code](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
+
+#### Code requirements available here: [Requirements](https://github.com/sijiao-liu/customer-car-prediction/blob/fbastos/requirements.txt)
+
 
 ## Dataset
 
@@ -56,8 +53,9 @@ The dataset contains the following key columns, each representing important info
 
 ### Descriptive Statistics (Numerical Features)
 
-
-![Descriptive Statistics.png](./image/Descriptive_Statistics.png)
+<p align="center">
+  <img src="./image/stats_desc.png" width="400"/>
+</p>
 
 - **Average Annual Income**: $830,840
 - **Average Car Price**: $28,090
@@ -65,9 +63,10 @@ The dataset contains the following key columns, each representing important info
 
 ### Data Types and Null Values
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/Data_Types_and_Null_Values.png" width="400"/>
-</div>
+</p>
+
 
 - **Number of Entries**: 23,906
 - **Number of Features**: 16
@@ -85,9 +84,10 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - The price distribution is right-skewed, indicating that most vehicles are in the lower price range, while a few high-end vehicles push the tail of the distribution upward.
     - This insight helps businesses understand pricing clusters and focus on the most commonly purchased price ranges.
      
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/Distribution_of_Vehicle_Prices.png" width="400"/>
-</div>
+</p>
+
 
 **Average Price by Body Style**
   - **Purpose**: This graph highlights the average prices of different car body styles (e.g., SUVs, sedans).
@@ -95,9 +95,10 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - SUVs have the highest average price, followed by passenger vehicles and hatchbacks.
     - Dealerships can use this information to target customers differently based on their budget preferences for various car categories.
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/Average_Price_by_Body_Style.png" width="400"/>
-</div>
+</p>
+
 
 **Average Price by Body Style**
   - **Purpose**: This visualization provides insights into how vehicle sales trends evolve over time.
@@ -105,9 +106,10 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - Peaks and troughs in the data could correlate with seasonal sales trends, promotions, or economic factors.
     - Understanding these trends can help businesses optimize inventory and promotional strategies during high-demand periods.
 
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/visuals_temporal-insights.png" width="800"/>
-</div>
+</p>
+
 
 **Correlation Heatmap**
   - **Purpose**: This heatmap illustrates the relationships between numerical variables in the dataset.
@@ -115,49 +117,60 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - A moderate positive correlation is observed between `Annual Income` and `Price ($)`, suggesting that higher-income customers tend to purchase more expensive cars.
     - Other features, such as `Dealer Region` and `Body Style`, show weaker correlations, emphasizing their less significant role in price prediction.
       
-<div style="text-align: center;">
+<p align="center">
   <img src="./image/correlation_heatmap.png" width="600"/>
-</div>
+</p>
 
 
 ## Data Preprocessing
 
 STEPS TAKEN FOR PREPOCESSING TO BE ADDED HERE
 
-![Features_used_for_training.png](./image/Features_used_for_training.png)
+<p align="center">
+  <img src="./image/pipelines.png" width="600"/>
+</p>
 
-![Random Forest Pipeline.png](./image/Random_Forest_Pipeline.png)
-
-![SVM Pipeline.png](./image/SVM_Pipeline.png)
-
-![Kneighbors Pipeline.png](./image/Kneighbors_Pipeline.png)
-
-![XGBoost Pipeline.png](./image/XGBoost_Pipeline.png)
-
+Before model training and selection process the data was split into training and test sets using an 80/20 split, where 80% of the data was used for training and 20% for testing.
 
 ## Model Selection
 
-STEPS TAKEN FOR MODEL SELECTION TO BE ADDED HERE (TRAIN/TEST SPLIT, TRAINING ACCURACY & CLASSIFICATION REPORT RESULTS)
+After the data was processed and a pipeline setup a few models were trained to evaluate their performance on predicting car body styles. The selected algorithms were: RandomForest, Supporting Vector Machine, KNeighbors, and XGBoost. Initial training accuracy was computed for each model to assess its fit to the training and test data. A classification report was also generated for each model to evaluate precision, recall, F1 score. Based on these metrics, the model with the highest overall performance (XGBoost) was chosen for further tuning. See below for the performance comparison.
+
+<p align="center">
+  <img src="./image/Model_Performance_Comparison.png" width="600"/>
+</p>
+
 
 ## Hyperparameter Tuning
 
-STEPS TAKEN FOR TUNING USING GRIDSEARCH TO BE ADDED HERE (EXPLAIN THE PARAMETERS TUNED)
+Next, GridSearchCV was used to fine-tune the hyperparameters of the XGBoost model. The hyperparameters tuned included the number of estimators (n_estimators), maximum depth of trees (max_depth), learning rate, and subsample ratio. A grid search was performed with cross-validation to find the best combination of these parameters that would maximize model performance. The grid search tested several combinations of parameter values to optimize the XGBoost classifier. The best set of hyperparameters was selected based on the performance metrics, particularly accuracy and F1 score.
+
 
 ## Evaluate Final Model
 
-![confusion matrix.png](./image/confusion_matrix.png)
+After hyperparameter tuning with GridSearchCV, the final model was trained using the optimal parameters. The model's performance was evaluated on the test set using a classification report and accuracy score. See graph below showing the resulting accuracy, precision, recall, and F1 score. These results were compared against the previous models to assess the improvement brought by tuning. A confusion matrix was also plotted to further evaluate the model's prediction accuracy across different classes.
+
+<p align="center">
+  <img src="./image/Final_Model_Performance.png" width="400"/>
+</p>
+
+
+<p align="center">
+  <img src="./image/confusion_matrix.png" width="400"/>
+</p>
+
 
 ## Conclusion
 
-CONCLUSION TO BE ADDED
+The model selection and hyperparameter tuning process led to the identification of the XGBoost classifier with optimal parameters as the best-performing model. The model achieved high accuracy and balanced performance across precision, recall, and F1 score. Hyperparameter tuning significantly improved the model's performance compared to the baseline models. The final model's results were validated using a confusion matrix and compared with the results of other classifiers. Overall, the tuned XGBoost model proved to be the most reliable for predicting car body styles based on customer data.
 
 ## Future Work
 
-Improvements to classification model:
+Improvements to classification work:
 
 - Add validation split as well (75% training, 10% validation, 15% testing)
-- Add ROC/AUC curves & Metrics progression chart (Bar char of bar charts)
-
+- Add training vs validation vs training metrics
+- Add ROC/AUC curves
 
 Using a regression model to to predict customer spending Behavior based on Income, Gender, and Region:
 
