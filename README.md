@@ -2,16 +2,11 @@
 
 ## Project Overview
 
-In 2023, approximately 1.76 million cars were sold in Canada, marking a 12.9% year-over-year increase. Understanding customer preferences and spending behavior is critical for businesses to remain competitive and capture revenue in this growing market.
-
-This project utilizes a clustering model to classify potential buyers into various car categories (e.g., SUV, Hatchback) by leveraging demographic data like age, income, and gender. Additionally, it employs a regression model to predict how much a customer might spend on a vehicle based on income, region, and gender. These insights will enable businesses to tailor their marketing and pricing strategies effectively.
+In 2023, approximately 1.76 million cars were sold in Canada, marking a 12.9% increase (year-over-year). Therefore, understanding customer preferences and spending behavior could give dealerships an advantage in remaining competitive and capturing some of the revenue these growing sales are generating. This project aims to classify potential purchases into various car categories (e.g., SUV, Hatchback) by leveraging customer data like age, income, gender and previous vehicle purchased. These insights will enable businesses to tailor their marketing strategies effectively.
 
 The question this project aims to address is:
 
-#### 1. Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
-
-The focus is on using machine learning techniques to classify which car category (e.g., SUV, sedan) a customer is likely to purchase based on demographic factors such as age, income, gender, and historical purchase data. The goal is to build an accurate predictive model that assists in understanding consumer preferences. Dealerships can use these insights to tailor their marketing strategies for different customer groups.
-
+#### Which car category (e.g., SUV vs sedan) a customer is likely to purchase based on demographic factors and historical purchase data?
 
 ## Team Members (GitHub Username)
 
@@ -24,6 +19,10 @@ The focus is on using machine learning techniques to classify which car category
 
 #### Final code can be found here: 
 [https://github.com/sijiao-liu/customer-car-prediction/Classification Model - fbastos.ipynb](https://github.com/sijiao-liu/customer-car-prediction/blob/e1fe0cf53164f5773a52b790a00428914b48add7/code/Classification%20Model%20-%20fbastos.ipynb)
+
+#### Requirements for running code can be found here:
+
+
 
 ## Dataset
 
