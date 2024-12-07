@@ -155,6 +155,11 @@ After hyperparameter tuning with GridSearchCV, the final model was trained using
 </p>
 
 
+<p align="center">
+  <img src="./image/confusion_matrix.png" width="600"/>
+</p>
+
+
 ## Conclusion
 
 The model selection and hyperparameter tuning process led to the identification of the XGBoost classifier with optimal parameters as the best-performing model. The model achieved high accuracy and balanced performance across precision, recall, and F1 score. Hyperparameter tuning significantly improved the model's performance compared to the baseline models. The final model's results were validated using a confusion matrix and compared with the results of other classifiers. Overall, the tuned XGBoost model proved to be the most reliable for predicting car body styles based on customer data.
