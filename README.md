@@ -122,30 +122,36 @@ STEPS TAKEN FOR PREPOCESSING TO BE ADDED HERE
 
 ![XGBoost Pipeline.png](./image/XGBoost_Pipeline.png)
 
+Before model training and selection process the data was split into training and test sets using an 80/20 split, where 80% of the data was used for training and 20% for testing.
 
 ## Model Selection
 
-STEPS TAKEN FOR MODEL SELECTION TO BE ADDED HERE (TRAIN/TEST SPLIT, TRAINING ACCURACY & CLASSIFICATION REPORT RESULTS)
+After the data was processed and a pipeline setup a few models were trained to evaluate their performance on predicting car body styles. The selected algorithms were: RandomForest, Supporting Vector Machine, KNeighbors, and XGBoost. Initial training accuracy was computed for each model to assess its fit to the training and test data. A classification report was also generated for each model to evaluate precision, recall, F1 score. Based on these metrics, the model with the highest overall performance (XGBoost) was chosen for further tuning. See below for the performance comparison.
+
+<img src="./image/Model_Performance_Comparison.png" width="300"/>
 
 ## Hyperparameter Tuning
 
-STEPS TAKEN FOR TUNING USING GRIDSEARCH TO BE ADDED HERE (EXPLAIN THE PARAMETERS TUNED)
+Next, GridSearchCV was used to fine-tune the hyperparameters of the XGBoost model. The hyperparameters tuned included the number of estimators (n_estimators), maximum depth of trees (max_depth), learning rate, and subsample ratio. A grid search was performed with cross-validation to find the best combination of these parameters that would maximize model performance. The grid search tested several combinations of parameter values to optimize the XGBoost classifier. The best set of hyperparameters was selected based on the performance metrics, particularly accuracy and F1 score.
+
 
 ## Evaluate Final Model
 
-![confusion matrix.png](./image/confusion_matrix.png)
+After hyperparameter tuning with GridSearchCV, the final model was trained using the optimal parameters. The model's performance was evaluated on the test set using a classification report and accuracy score. See graph below showing the resulting accuracy, precision, recall, and F1 score. These results were compared against the previous models to assess the improvement brought by tuning. A confusion matrix was also plotted to further evaluate the model's prediction accuracy across different classes.
+
+<img src="./image/Final_Model_Performance.png" width="300"/>
 
 ## Conclusion
 
-CONCLUSION TO BE ADDED
+The model selection and hyperparameter tuning process led to the identification of the XGBoost classifier with optimal parameters as the best-performing model. The model achieved high accuracy and balanced performance across precision, recall, and F1 score. Hyperparameter tuning significantly improved the model's performance compared to the baseline models. The final model's results were validated using a confusion matrix and compared with the results of other classifiers. Overall, the tuned XGBoost model proved to be the most reliable for predicting car body styles based on customer data.
 
 ## Future Work
 
-Improvements to classification model:
+Improvements to classification work:
 
 - Add validation split as well (75% training, 10% validation, 15% testing)
-- Add ROC/AUC curves & Metrics progression chart (Bar char of bar charts)
-
+- Add training vs validation vs training metrics
+- Add ROC/AUC curves
 
 Using a regression model to to predict customer spending Behavior based on Income, Gender, and Region:
 
