@@ -137,7 +137,8 @@ Before model training and selection process the data was split into training and
 After the data was processed and a pipeline setup a few models were trained to evaluate their performance on predicting car body styles. The selected algorithms were: RandomForest, Supporting Vector Machine, KNeighbors, and XGBoost. Initial training accuracy was computed for each model to assess its fit to the training and test data. A classification report was also generated for each model to evaluate precision, recall, F1 score. Based on these metrics, the model with the highest overall performance (XGBoost) was chosen for further tuning. See below for the performance comparison.
 
 <p align="center">
-  <img src="./image/Model_Performance_Comparison.png" width="600"/>
+  <img src="./image/Model_Performance_Comparison.png" width="400" style="display:inline-block;"/>
+  <img src="./image/ROC_Curve_Comparison.png" width="400" style="display:inline-block;"/>
 </p>
 
 
@@ -150,13 +151,10 @@ Next, GridSearchCV was used to fine-tune the hyperparameters of the XGBoost mode
 
 After hyperparameter tuning with GridSearchCV, the final model was trained using the optimal parameters. The model's performance was evaluated on the test set using a classification report and accuracy score. See graph below showing the resulting accuracy, precision, recall, and F1 score. These results were compared against the previous models to assess the improvement brought by tuning. A confusion matrix was also plotted to further evaluate the model's prediction accuracy across different classes.
 
-<p align="center">
-  <img src="./image/Final_Model_Performance.png" width="400"/>
-</p>
-
 
 <p align="center">
-  <img src="./image/confusion_matrix.png" width="400"/>
+  <img src="./image/Final_Model_Performance.png" width="400" style="display:inline-block;"/>
+  <img src="./image/confusion_matrix.png" width="400" style="display:inline-block;"/>
 </p>
 
 
