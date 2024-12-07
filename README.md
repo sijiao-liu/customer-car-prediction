@@ -65,7 +65,9 @@ The dataset contains the following key columns, each representing important info
 
 ### Data Types and Null Values
 
-![Data Types and Null Values.png](./image/Data_Types_and_Null_Values.png)
+<div style="text-align: center;">
+  <img src="./image/Data_Types_and_Null_Values.png" width="400"/>
+</div>
 
 - **Number of Entries**: 23,906
 - **Number of Features**: 16
@@ -82,8 +84,10 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
   - **What It Means**:
     - The price distribution is right-skewed, indicating that most vehicles are in the lower price range, while a few high-end vehicles push the tail of the distribution upward.
     - This insight helps businesses understand pricing clusters and focus on the most commonly purchased price ranges.
-![Distribution of Vehicle Prices.png](./image/Distribution_of_Vehicle_Prices.png)      
-
+     
+<div style="text-align: center;">
+  <img src="./image/Distribution_of_Vehicle_Prices.png" width="400"/>
+</div>
 
 **Average Price by Body Style**
   - **Purpose**: This graph highlights the average prices of different car body styles (e.g., SUVs, sedans).
@@ -91,8 +95,9 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - SUVs have the highest average price, followed by passenger vehicles and hatchbacks.
     - Dealerships can use this information to target customers differently based on their budget preferences for various car categories.
 
-![Average Price by Body Style.png](./image/Average_Price_by_Body_Style.png)
-
+<div style="text-align: center;">
+  <img src="./image/Average_Price_by_Body_Style.png" width="400"/>
+</div>
 
 **Average Price by Body Style**
   - **Purpose**: This visualization provides insights into how vehicle sales trends evolve over time.
@@ -100,15 +105,19 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
     - Peaks and troughs in the data could correlate with seasonal sales trends, promotions, or economic factors.
     - Understanding these trends can help businesses optimize inventory and promotional strategies during high-demand periods.
 
-![Average Price by Body Style.png](./image/visuals_temporal-insights.png)
+<div style="text-align: center;">
+  <img src="./image/visuals_temporal-insights.png" width="800"/>
+</div>
 
 **Correlation Heatmap**
   - **Purpose**: This heatmap illustrates the relationships between numerical variables in the dataset.
   - **What It Means**:
     - A moderate positive correlation is observed between `Annual Income` and `Price ($)`, suggesting that higher-income customers tend to purchase more expensive cars.
     - Other features, such as `Dealer Region` and `Body Style`, show weaker correlations, emphasizing their less significant role in price prediction.
-
-![Correlation Heatmap.png](./image/correlation_heatmap.png)
+      
+<div style="text-align: center;">
+  <img src="./image/correlation_heatmap.png" width="600"/>
+</div>
 
 
 ## Data Preprocessing
