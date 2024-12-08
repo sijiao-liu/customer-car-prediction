@@ -124,8 +124,6 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
 
 ## Data Preprocessing
 
-STEPS TAKEN FOR PREPOCESSING TO BE ADDED HERE
-
 <p align="center">
   <img src="./image/pipelines.png" width="600"/>
 </p>
