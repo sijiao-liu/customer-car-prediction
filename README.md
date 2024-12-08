@@ -75,9 +75,6 @@ The dataset contains the following key columns, each representing important info
 
 ### Interesting Insights
 
-INSIGHTS DESCRIPTION TO BE ADDED HERE
-
-
 **Distribution of Vehicle Prices**
   - **Purpose**: This graph showcases the distribution of car prices across different vehicles in the dataset.
   - **What It Means**:
@@ -123,8 +120,6 @@ INSIGHTS DESCRIPTION TO BE ADDED HERE
 
 
 ## Data Preprocessing
-
-STEPS TAKEN FOR PREPOCESSING TO BE ADDED HERE
 
 <p align="center">
   <img src="./image/pipelines.png" width="600"/>
